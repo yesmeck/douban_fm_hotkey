@@ -1,6 +1,8 @@
+require File.expand_path("../lib/douban_fm_hotkey/version", __FILE__)
+
 Gem::Specification.new do |s|
   s.name        = 'douban_fm_hotkey'
-  s.version     = '0.0.1'
+  s.version     = DoubanFMHotkey::VERSION
   s.summary     = 'Douban FM global hotkey.'
   s.description = 'Global hotkey for Douban FM web.'
   s.authors     = ['Wei Zhu']
