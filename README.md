@@ -13,7 +13,8 @@ $ gem i douban_fm_hotkey
 
 https://dl.dropboxusercontent.com/u/1658623/douban_fm_hotkey.crx
 
-= = Chrome web store developer account 验证中。。。
+Chrome web store developer account 验证中。
+以上链接请在新 tab 中打开，然后在出来提示中点继续。
 
 ## 使用
 
