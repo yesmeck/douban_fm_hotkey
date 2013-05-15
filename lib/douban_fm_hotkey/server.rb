@@ -10,6 +10,10 @@ module DoubanFMHotkey
       @client = Faye::Client.new('http://0.0.0.0:1988/faye')
     end
 
+    get '/' do
+      '<h1>Douban FM Hotkey</h1><p>Made by http://www.douban.com/people/coolzi/</p>'
+    end
+
     %w{skip pause love ban}.each do |cmd|
       get "/#{cmd}" do
         @client.publish('/hotkey', {cmd: cmd})

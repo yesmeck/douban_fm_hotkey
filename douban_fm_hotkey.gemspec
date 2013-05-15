@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://www.douban.com/people/coolzi'
   s.add_dependency 'faye'
   s.add_dependency 'sinatra'
-  s.add_dependency 'thor'
+  s.add_dependency 'vegas'
 end

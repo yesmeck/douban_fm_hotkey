@@ -1,8 +1,0 @@
-#!/usr/bin/env ruby
-
-$:.unshift File.expand_path('../../lib', __FILE__)
-
-require 'douban_fm_hotkey/cli'
-
-DoubanFMHotkey::Cli.start
-
