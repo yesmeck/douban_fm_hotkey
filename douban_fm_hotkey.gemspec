@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Wei Zhu']
   s.email       = 'yesmeck@gmail.com'
   s.files       = `git ls-files | grep -v '^chrome-extension/'`.split("\n")
+  s.executables << 'douban_fm_hotkey'
   s.homepage    = 'http://www.douban.com/people/coolzi'
   s.add_dependency 'faye'
   s.add_dependency 'sinatra'
