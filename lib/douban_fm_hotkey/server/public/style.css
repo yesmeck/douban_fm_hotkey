@@ -1,3 +1,11 @@
+body {
+  font-size: 13px;
+}
+
+#cover img {
+  width: 150px
+}
+
 ul {
   list-style: none;
 }
