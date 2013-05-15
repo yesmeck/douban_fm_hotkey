@@ -11,7 +11,7 @@
   "content_scripts": [
     {
       "matches": ["http://douban.fm/"],
-      "js": ["douban-fm-hotkey.js"],
+      "js": ["douban_fm_hotkey.js"],
       "run_at": "document_end"
     }
   ]
