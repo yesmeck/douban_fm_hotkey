@@ -13,6 +13,7 @@ faye.onload = function() {
 
 document.documentElement.firstChild.appendChild(faye);
 
+// http://stackoverflow.com/a/9906932/398988
 function exec(fn) {
     var args = '';
     if (arguments.length > 1) {
