@@ -31,8 +31,8 @@ $ douban_fm_hotkey
 
 * `curl http://localhost:1988/skip` 下一首
 * `curl http://localhost:1988/ban` 不再播放
-* `curl http://localhost:1988/love` 喜欢
-* `curl http://localhost:1988/pause` 暂停, 暂停的时候执行这个就是继续播放
+* `curl http://localhost:1988/love` 喜欢，在已经喜欢的歌曲上执行就是取消喜欢
+* `curl http://localhost:1988/pause` 暂停，暂停的时候执行这个就是继续播放
 
 具体每个系统的配置不大一样这里不详细说了。我的配置：
 
