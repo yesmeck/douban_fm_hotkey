@@ -1,8 +1,13 @@
 require 'sinatra/base'
+require 'sinatra/reloader'
 require 'faye'
 
 module DoubanFMHotkey
   class Server < Sinatra::Base
+
+    configure :development do
+      register Sinatra::Reloader
+    end
 
     dir = File.dirname(File.expand_path(__FILE__))
 
