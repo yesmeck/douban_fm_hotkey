@@ -37,9 +37,5 @@ module DoubanFMHotkey
       end
     end
 
-    get '/m' do
-      erb :m
-    end
-
   end
 end
