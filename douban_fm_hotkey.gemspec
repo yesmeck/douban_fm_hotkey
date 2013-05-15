@@ -13,4 +13,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'faye'
   s.add_dependency 'sinatra'
   s.add_dependency 'vegas'
+  s.add_dependency 'thin'
 end
