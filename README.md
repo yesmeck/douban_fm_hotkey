@@ -25,6 +25,8 @@ https://dl.dropboxusercontent.com/u/1658623/douban_fm_hotkey.crx
 $ douban_fm_hotkey
 ```
 
+可以把这个设置成开机启动。
+
 ### 设置快捷键
 
 在你的系统里把你想要的快捷键分别映射到以下命令：
