@@ -23,7 +23,7 @@ module DoubanFMHotkey
     end
 
     get '/' do
-      '<h1>Douban FM Hotkey</h1><p>Made by http://www.douban.com/people/coolzi/</p>'
+      erb :index
     end
 
     %w{skip pause love ban}.each do |cmd|
