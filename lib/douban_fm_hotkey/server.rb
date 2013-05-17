@@ -2,6 +2,9 @@ require 'sinatra/base'
 require 'sinatra/reloader'
 require 'faye'
 
+# https://github.com/DanKnox/websocket-rails/issues/85
+Faye::WebSocket.load_adapter('thin')
+
 module DoubanFMHotkey
   class Server < Sinatra::Base
 
