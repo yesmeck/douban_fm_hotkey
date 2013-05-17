@@ -38,3 +38,7 @@ $ douban_fm_hotkey
 
 ![Shortcuts](https://dl.dropboxusercontent.com/u/1658623/douban_fm_hotkey_shortcuts.png)
 
+## 用手机控制电脑上的电台
+
+首先你的手机和电脑要在同一个局域网上，然后用手机访问`http://电脑IP:1988`，就可以用手机控制电脑上的豆瓣电台了。
+
