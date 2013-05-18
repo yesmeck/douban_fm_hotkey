@@ -12,7 +12,7 @@
     {
       "matches": ["http://douban.fm/"],
       "js": ["douban_fm_hotkey.js"],
-      "run_at": "document_end"
+      "run_at": "document_idle"
     }
   ]
 }

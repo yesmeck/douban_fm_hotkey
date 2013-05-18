@@ -34,7 +34,7 @@ module DoubanFMHotkey
       erb :index
     end
 
-    %w{skip pause love ban}.each do |cmd|
+    %w{skip pause love ban info}.each do |cmd|
       get "/#{cmd}" do
         @client.publish('/hotkey', {cmd: cmd})
       end
