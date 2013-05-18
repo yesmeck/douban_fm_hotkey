@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    douban_fm_hotkey (1.0.2)
+    douban_fm_hotkey (1.1.0)
       faye
       sinatra
       thin
