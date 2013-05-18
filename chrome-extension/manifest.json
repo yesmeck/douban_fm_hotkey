@@ -3,7 +3,7 @@
 
   "name": "Douban FM Hotkey",
   "description": "Global hotkey for Douban FM web.",
-  "version": "1.1.0",
+  "version": "1.2.0",
 
   "permissions": [
     "http://douban.fm/"
@@ -12,7 +12,7 @@
     {
       "matches": ["http://douban.fm/"],
       "js": ["douban_fm_hotkey.js"],
-      "run_at": "document_end"
+      "run_at": "document_idle"
     }
   ]
 }
