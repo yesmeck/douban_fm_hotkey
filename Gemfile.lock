@@ -1,9 +1,10 @@
 PATH
   remote: .
   specs:
-    douban_fm_hotkey (1.2.0)
+    douban_fm_hotkey (1.2.1)
       faye
       sinatra
+      sinatra-contrib
       thin
       vegas
 
@@ -65,4 +66,3 @@ PLATFORMS
 
 DEPENDENCIES
   douban_fm_hotkey!
-  sinatra-contrib

@@ -5,7 +5,5 @@ $:.unshift File.expand_path('../../lib', __FILE__)
 require 'douban_fm_hotkey/server'
 require 'vegas'
 
-environment = ENV['RACK_ENV'] || :production
-
-Vegas::Runner.new(DoubanFMHotkey::Server, 'douban_fm_hotkey', :bind => '0.0.0.0', :port => 1988, :environment => environment.to_sym)
+Vegas::Runner.new(DoubanFMHotkey::Server, 'douban_fm_hotkey', :bind => '0.0.0.0', :port => 1988)
 
