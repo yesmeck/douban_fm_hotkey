@@ -3,7 +3,7 @@
 // @namespace   http://yesmeck.com
 // @description Douban FM Hotkey
 // @include     http://douban.fm/
-// @version     1.2.0
+// @version     1.2.1
 // @grant       none
 // ==/UserScript==
 
