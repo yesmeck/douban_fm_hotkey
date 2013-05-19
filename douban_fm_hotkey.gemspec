@@ -7,7 +7,8 @@ Gem::Specification.new do |s|
   s.description = 'Global hotkey for Douban FM web.'
   s.authors     = ['Wei Zhu']
   s.email       = 'yesmeck@gmail.com'
-  s.files       = `git ls-files | grep -v '^chrome-extension/'`.split("\n")
+  s.files       = `git ls-files lib `.split("\n") +
+    %w{ bin/douban_fm_hotkey douban_fm_hotkey.gemspec README.md }
   s.executables << 'douban_fm_hotkey'
   s.homepage    = 'http://www.douban.com/people/coolzi'
   s.add_dependency 'faye'
