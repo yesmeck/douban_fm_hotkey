@@ -8,9 +8,7 @@ Faye::WebSocket.load_adapter('thin')
 module DoubanFMHotkey
   class Server < Sinatra::Base
 
-    configure :development do
-      register Sinatra::Reloader
-    end
+    register Sinatra::Reloader
 
     dir = File.dirname(File.expand_path(__FILE__))
 
